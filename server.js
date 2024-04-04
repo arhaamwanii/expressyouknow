@@ -2,16 +2,16 @@ const express = require('express')
 
 const app = express()
 
-app.use('/' , ({req , res , next}) => {
-    console.log(req)
-    res.send("<h1>What is going on here?</h1>")
-    next()
+app.use("/newpage" , (req , res , next) => {
+    console.log("one of the main things")
+    res.send('<h1>This is the new page!</h1>')
 })
-
-app.use('/' , ({req , res , next}) => {
-    console.log(req)
-    res.send("'<p>The Middleware that handles just /</p>'")
+app.use("/" , (req , res , next) => {
+    console.log("one of the main things")
+    res.send('<h1>Hello form Express!</h1>')
 })
 
 app.listen(3000)
+
+
 

@@ -23,3 +23,8 @@ muliple function
     - you travel from middleware to middle ware using next
 
 HANDLING INCOMMING REQUESTS
+
+    - EXPRESS.JS is all about MIDDLE WARE
+    - REQUEST -> MIDDLEWARE -> MIDDLE WARE -> RESPONSE
+
+    
