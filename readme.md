@@ -82,3 +82,5 @@ MODEL VIEW CONTROLLER (MVC)
 
 
 ROUTER
+    - if i go down the react way this is going to take time and shit am going to have to switch to the other next.js it is simpler and sucks less
+    - naah this is just a COPING MECAHNIAH
