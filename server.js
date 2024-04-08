@@ -2,9 +2,10 @@ const express = require('express')
 
 const app = express()
 
-app.use("/newpage" , (req , res , next) => {
+app.use("/users" , (req , res , next) => {
     console.log("one of the main things")
     res.send('<h1>This is the new page!</h1>')
+
 })
 app.use("/" , (req , res , next) => {
     console.log("one of the main things")
@@ -15,3 +16,6 @@ app.listen(3000)
 
 
 
+
+
+// 

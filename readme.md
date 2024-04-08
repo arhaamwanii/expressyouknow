@@ -27,4 +27,10 @@ HANDLING INCOMMING REQUESTS
     - EXPRESS.JS is all about MIDDLE WARE
     - REQUEST -> MIDDLEWARE -> MIDDLE WARE -> RESPONSE
 
-    
+
+APP.USE 
+    - every use of the app.use creates a new middle ware 
+    - i.e the function that will be called whenver that path is reached 
+    - anothe thing for the paht it does not have to be the absolute path
+        - if the thing starts with the '/' -- then any time any path that will be started with the '/' -- this code will be executed 
+        - so it just need to start with that thing for it to be executed
